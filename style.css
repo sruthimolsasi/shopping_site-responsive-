@@ -429,8 +429,10 @@ text-decoration:none;
     .section5
     {
        margin-top: -6%;
+       min-height: 80%;
       
     }
+    
     .carousel-item
     {
         margin-left: 21%;

@@ -1,0 +1,435 @@
+
+
+
+*{
+    margin:0px;
+    padding: 0px;
+    
+  }
+
+.carousel-item
+{
+    margin-left: 40%;
+    font-size: 16px;
+    margin-top: 18px;
+   
+}
+.logo img{
+    margin-top:16px;
+    width: 197px;
+    height: 47px;
+    margin-left: 30px;
+
+}
+
+.header_text
+{
+    margin-top:16px;
+    font-size: large;
+    margin-left: 200px;
+  
+
+} 
+.navbar-text
+{
+    margin-top:16px;
+    font-size: large;
+    margin-right: 61px;
+    display: block;
+    
+}
+ 
+a{
+    color: inherit;
+}
+.link-animated
+{
+    width: max-content;
+}
+.stickybar{
+    position:sticky;
+     top:1 px;
+     position: -webkit-sticky;
+    /* overflow: hidden; */
+    width: 100%; 
+    z-index:1;
+
+}
+
+.centered {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+    animation-fill-mode:backwards;
+    
+  }
+  .main-image,.card-img-top
+  {
+    opacity: 7.0;
+    visibility: visible;
+
+  }
+#buynow_button,#btn_explore
+{
+    background-color: black;
+    color: white;
+    height: 42px;
+    width: 125px;
+    margin-left: 38%;
+   
+
+}
+
+
+.fairy_flared 
+{
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.fairyimage  img
+{
+    padding-top: 150px;
+   width: 94%;
+   height: 1000px;
+   /* position: absolute; */
+     
+}
+.fairytext
+{
+   
+    /* position: absolute; */
+    margin-top:36%;
+    line-height:22px;
+    word-spacing:2px;
+   
+
+    
+}
+.fairytext h4{
+margin-left: 37%;
+text-decoration:none;
+}
+.fairytext h1{
+    margin-left: 27%;
+}
+.fairytext p{
+    margin-left: 116px;
+    padding-top: 12px;
+    
+}
+
+
+#l2
+{
+    margin-left: 148px;
+    
+}
+/* best sellers */
+.section1,.section2,.section3,.section4
+{
+   
+   
+  
+    /* background-color: black; */
+    position:relative;
+    min-height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.section1
+{
+    justify-content:space-evenly
+}
+.section2
+{
+  margin-top: 4%;
+}
+.section3
+{
+   justify-content:space-evenly;
+   
+}
+.sellers_row{
+    
+    
+    justify-content:center;
+    padding-top: 30px;
+    
+    
+   
+
+
+    
+    
+}
+.card_1,.card_2,.card_3,.card_4
+{
+    position: absolute;
+    flex: 1;
+     
+}
+.cards_1,.cards_2,.cards_3,.cards_4
+{
+    position: absolute;
+    flex: 1;
+}
+
+.seller_btn
+{
+    
+
+    background-color: white;
+    width: 87%;
+    height: 9%;
+    position: absolute;
+    margin-left: -292px;
+    margin-top: 368px;
+    border: none;
+    
+}
+.save_rs
+{
+    background-color: red;
+    width: 32%;
+    height: 4%;
+    position: absolute;
+    margin-top: 60px;
+    color: white;
+    margin-top: 12px;
+    margin-left: 9px;
+    padding-left: 7px;
+    
+
+}
+.btn_popovers
+{
+    z-index: 2;
+}
+
+
+.seller1_hover
+{
+    display: none;
+    position: absolute;
+    
+}
+
+.classy_btn
+{
+    color: dark;
+    height: 42px;
+    width: 125px;
+    margin-left: 47%;
+    border: none;
+}
+.section5
+{
+   background-color: rgb(14, 13, 13);
+    height:500px;
+     color: aliceblue;
+     margin-top: 10%;
+     
+} 
+
+.row
+{
+    position: relative;
+    height: 70%;
+    padding-top: 100px;
+
+    
+}
+
+.section6{
+ 
+  height: 10%;
+  background-color: antiquewhite;
+
+}
+.fa-brands
+{
+    width: 30px;
+    height: 4px;
+   margin-left: 80%;
+    font-size: 20px;
+    display: inline;
+}
+
+
+
+
+/* hover effect */
+.sellers_row:hover .seller1_hover
+{
+   display: block;
+}
+.nav_link_hover:hover
+{
+   text-decoration: underline;
+}
+
+/* images sliding effect */
+@-webkit-keyframes fade {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-moz-keyframes fade {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-o-keyframes fade {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes fade {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .main-image 
+   {
+   animation-name: fade;
+   animation-duration: 5s; 
+   animation-fill-mode:backwards; 
+  }
+  
+  @-webkit-keyframes slide {
+    0%   { transform: translate(0px,100px); }
+    100% { transform: translate(0px,0px); }
+  }
+  @-moz-keyframes slide {
+    0%   { transform: translate(0px,100px); }
+    100% { transform: translate(0px,0px); }
+  }
+  @-o-keyframes slide {
+    0%   { transform: translate(0px,100px); }
+    100% { transform: translate(0px,0px); }
+  }
+  @keyframes slide {
+    0%   { transform: translate(0px,100px); }
+    100% { transform: translate(0px,0px); }
+  }
+  .fairyimage
+  {
+    
+        animation-name: slide;
+        animation-duration: 6s; 
+        animation-fill-mode: forwards; 
+       
+  }
+
+  /* ------------------ */
+  @-webkit-keyframes slide {
+    0%   { transform: translate(0px,100px); }
+    100% { transform: translate(0px,0px); }
+  }
+  @-moz-keyframes slide {
+    0%   { transform: translate(0px,100px); }
+    100% { transform: translate(0px,0px); }
+  }
+  @-o-keyframes slide {
+    0%   { transform: translate(0px,100px); }
+    100% { transform: translate(0px,0px); }
+  }
+  @keyframes slide {
+    0%   { transform: translate(0px,100px); }
+    100% { transform: translate(0px,0px); }
+  }
+  
+    .card{
+   animation-name: slide;
+   animation-duration:1s; 
+   animation-fill-mode: forwards; 
+  }
+  /* -----------------------zoom effect
+  @-webkit-keyframes scale {
+    0%   { transform: scale(0.5,0.5); }
+    100% { transform: scale(1,1); }
+  }
+  @-moz-keyframes scale {
+    0%   { transform: scale(0.5,0.5); }
+    100% { transform: scale(1,1); }
+  }
+  @-o-keyframes scale {
+    0%   { transform: scale(0.5,0.5); }
+    100% { transform: scale(1,1); }
+  }
+  @keyframes scale {
+    0%   { transform: scale(0.5,0.5); }
+    100% { transform: scale(0.7,0.7); }
+  }
+  
+  .section3_effect:hover{
+   animation-name: scale;
+   animation-duration: 2s; 
+   animation-fill-mode: forwards; 
+  } */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+/* media query */
+@media (max-width:1000px) {
+
+    .logo img{
+        margin-left: 30%;
+        
+    }
+    .arrowbtn
+    {
+        display: none;
+    }
+    .centered {
+     top: 50%;
+     font-size: 55px;
+    }
+    .section1
+    {
+        align-items: center;
+        
+        
+    }
+    .section2
+    { 
+        align-items: center;
+    }
+    .centered
+    {
+        font-size: 20px;
+        margin-top: 60px;
+    }
+    #btn_explore
+    {
+        margin-left: 20%;
+    }
+    
+    .fa-brands
+    {
+        margin-left: 50%;
+    }
+    .section5
+    {
+       margin-top: 90%;
+      
+    }
+}
+
